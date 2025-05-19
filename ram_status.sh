@@ -1,6 +1,6 @@
 # RAM Monitoring Script
-#!/bin/bash
 
+#!/bin/bash
 
 FREE_SPACE=$( free -mt | grep "Total" | awk '{print $4}' )
 TH=400
