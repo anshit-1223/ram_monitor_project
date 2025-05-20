@@ -2,8 +2,9 @@
 
 #!/bin/bash
 
+source ~/.ram_threshold.conf
 FREE_SPACE=$( free -mt | grep "Total" | awk '{print $4}' )
-TH=400
+TH=500
 
 if [[ $FREE_SPACE -lt $TH ]]
 then
