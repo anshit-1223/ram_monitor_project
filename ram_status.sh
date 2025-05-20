@@ -8,7 +8,7 @@ FREE_SPACE=$( free -mt | grep "Total" | awk '{print $4}' )
 
 if [[ $FREE_SPACE -lt THRESHOLD ]]
 then
-    echo "WARNING! RAM is running low." | mail -s "RAM Usage Alert" ${EMAIL}
+    echo "WARNING! RAM is running low." | mail -s "RAM Usage Alert" "${EMAIL}"
 else
     echo "RAM is Sufficient - $FREE_SPACE M"
 fi
