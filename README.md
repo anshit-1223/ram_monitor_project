@@ -13,13 +13,12 @@ Step 2: Setup postfix
 
    2. Edit main.conf
 
-      vim main.conf
-      Go to line 337
-      add relayhost=[smtp.gmail.com]:587
-      Go to line 96
-      add myhostname=yourhostname
-      at the end 
-      add the written below code
+    vim main.conf
+    Go to line 337
+    add relayhost=[smtp.gmail.com]:587
+    Go to line 96
+    add myhostname=yourhostname
+    at the end add the written below code
 
     ########################################
     #Location of sasl_passwd we saved
