@@ -1,5 +1,5 @@
 # RAM MONITORING
-It's a RAM Monitoring Script which checks free ram and if it goes below defined threshold sends an email notification.
+The RAM Monitor with Email Notification is a lightweight and customizable system monitoring tool designed to track memory (RAM) usage in real-time and alert system administrators when usage exceeds a defined threshold. This helps prevent system slowdowns, crashes, by providing early warnings through automated email alerts.
 
 
 Here are the steps to set up and run the script on your system:
