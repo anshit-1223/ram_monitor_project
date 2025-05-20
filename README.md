@@ -12,7 +12,7 @@ Step 2: Setup postfix
       cd /etc/postfix
 
    2. Edit main.conf
-   
+
       vim main.conf
       Go to line 337
       add relayhost=[smtp.gmail.com]:587
@@ -21,7 +21,7 @@ Step 2: Setup postfix
       at the end 
       add the written below code
 
-      ########################################
+    ########################################
     #Location of sasl_passwd we saved
     smtp_sasl_password_maps= hash:/etc/postfix/sasl/sasl_passwd
 
