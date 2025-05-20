@@ -1,5 +1,5 @@
 # RAM MONITORING
-It's a Ram Monitoring Script which checks free ram and if it goes below defined threshold sends an email notification.
+It's a RAM Monitoring Script which checks free ram and if it goes below defined threshold sends an email notification.
 
 
 Here are the steps to set up and run the script on your system:
