@@ -2,11 +2,10 @@
 
 #!/bin/bash
 
-source ~/.ram_threshold.conf
+source ./.ram_threshold.conf
 FREE_SPACE=$( free -mt | grep "Total" | awk '{print $4}' )
-TH=500
 
-if [[ $FREE_SPACE -lt $TH ]]
+if [[ $FREE_SPACE -lt THRESHOLD ]]
 then
     echo "WARNING! RAM is running low." | mail -s "Regarding RAM Usage" anshit1223@gmail.com
 else
